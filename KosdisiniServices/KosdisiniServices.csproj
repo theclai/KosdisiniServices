@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\DataModel\" />
+    <Folder Include="Core\" />
+    <Folder Include="DataLayer\" />
+    <Folder Include="DataLayer\Repositories\" />
+    <Folder Include="Context\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Persistence\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.2" />
+    <PackageReference Include="ServiceStack" Version="5.9.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+</Project>
